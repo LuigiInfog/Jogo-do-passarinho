@@ -39,4 +39,4 @@ class Jogador:
             self.velocidadeAtual = -self.velocidadeMaxima * 2
 
     def getRect(self):
-        
+        return pygame.Rect(self.posicao, self.tamanho)
